@@ -14,14 +14,11 @@ const Showcase = ({ showcaseData }) => {
             <Head>
                 <meta charSet="UTF-8" />
                 <title>Showcase 🌠 | aommie.codes</title>
-
             </Head>
-
             <Layout className="container p-0" theme="light" >
                 <Navbar selected="2" />
                 <Content className="p-5">
                     <div className="content text-center">
-
                         <h1>Showcases 🌠</h1>
                         <p>I build some websites to improve myskill 💪💪</p>
                         <p>
