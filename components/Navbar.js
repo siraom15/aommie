@@ -9,7 +9,7 @@ const { Header } = Layout;
 const Navbar = ({ selected = '1' }) => {
     return (
         <>
-            <Header theme="light">
+            <Header theme="light" className="d-flex justify-content-center">
                 {/* <div className="logo" /> */}
                 <Menu mode="horizontal" defaultSelectedKeys={[selected]} theme="light">
                     <Menu.Item key="0">
@@ -22,6 +22,11 @@ const Navbar = ({ selected = '1' }) => {
                             <a> Home 🏠</a>
                         </Link>
                     </Menu.Item>
+                    <Menu.Item key="6">
+                        <Link href="/about">
+                            <a> About 📚</a>
+                        </Link>
+                    </Menu.Item>
                     <Menu.Item key="2">
                         <Link href="/showcase">
                             <a>  Showcases 🌠</a>
@@ -32,15 +37,15 @@ const Navbar = ({ selected = '1' }) => {
                             <a> Contact 📝</a>
                         </Link>
                     </Menu.Item>
-                    <Menu.Item key="4" style={{ marginLeft: '50%' }}>
+
+                    <Menu.Item key="4" >
                         <Link href="https://www.github.com/siraom15">
                             <a target="_blank">
-                            <MediumOutlined />
-
+                                <MediumOutlined />
                             </a>
                         </Link>
                     </Menu.Item>
-                    <Menu.Item key="5">
+                    <Menu.Item key="5" >
                         <Link href="https://siriwataom.medium.com/" >
                             <a target="_blank"> <GithubOutlined /></a>
                         </Link>

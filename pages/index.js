@@ -20,20 +20,24 @@ const Home = () => {
           <div className="content text-center">
            
             <h1>Hi, I'm áom 🍵</h1>
+            <br />
             {/* <Image
               width={200}
               src="https://github.com/siraom15.png"
             /> */}
-            <p>Siriwat Jaiyungyuen :D </p>
-            <p>Now, I am studying at SIT26@KMUTT💻</p>
+            {/* <p>Siriwat Jaiyungyuen :D </p> */}
+            {/* <p>Now, I am studying at SIT26@KMUTT💻</p>
             <p>I want to be a Backend Developer, Software Developer. (to be a rich man 💸 :D)</p>
-            <br />
+            <br /> */}
             <p>Green tea lover 🍵, Cat lover 🐈, Sleeping lover 💤, Chocolate lover 🍫</p>
             <p>Working at midnight 🌖 My brain running 300% 🤯</p>
             <br />
             <p>Live in Bangkok, Thailand. 🌎</p>
           </div>
         </Content>
+        <Footer>
+          <p className="text-center">© aommie {new Date().getFullYear()}</p>
+        </Footer>
       </Layout>
 
     </>

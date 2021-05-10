@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import { Layout } from 'antd';
-const { Content } = Layout;
+const { Content, Footer } = Layout;
 import { FacebookOutlined, GithubOutlined, MediumOutlined, LinkedinOutlined, InstagramOutlined } from '@ant-design/icons';
 import Navbar from '../components/Navbar'
 import Link from 'next/link';
@@ -49,6 +49,9 @@ const Contact = () => {
             </div>
           </div>
         </Content>
+        <Footer>
+          <p className="text-center">© aommie {new Date().getFullYear()}</p>
+        </Footer>
       </Layout>
 
     </>

@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import React from 'react'
 import { Layout, Row, Col } from 'antd';
-const { Content } = Layout;
+const { Content, Footer } = Layout;
 import { Space } from 'antd'
 import Navbar from '../components/Navbar'
 import ShowcaseCard from '../components/ShowcaseCard';
 import * as data from '../data/showcases.json';
 
 const Showcase = ({ showcaseData }) => {
-   
+
     return (
         <>
             <Head>
@@ -35,6 +35,9 @@ const Showcase = ({ showcaseData }) => {
                         </div>
                     </div>
                 </Content>
+                <Footer>
+                    <p className="text-center">© aommie {new Date().getFullYear()}</p>
+                </Footer>
             </Layout>
         </>
     )

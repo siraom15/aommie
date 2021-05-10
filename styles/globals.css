@@ -20,3 +20,6 @@ a{
   text-decoration: none;
   color:black !important;
 }
+.ant-layout-footer{
+  background-color: white;
+}
