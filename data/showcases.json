@@ -25,7 +25,7 @@
         "describe": "Just a bot in discord",
         "url": "https://discord.com/oauth2/authorize?client_id=718169475777822841&scope=bot&permissions=8",
         "sourcecode": "https://github.com/siraom15/discord-bot",
-        "numofimg": 0
+        "numofimg": 1
     },
     {
         "name": "discord-covid-stat",
@@ -39,7 +39,7 @@
         "describe": "Website for hire graba to contain product or finding a jobs",
         "url": "https://graba-express.herokuapp.com/",
         "sourcecode": "https://github.com/siraom15/graba-express",
-        "numofimg": 1
+        "numofimg": 2
     },
     {
         "name": "Grade Calculator",
@@ -81,7 +81,7 @@
         "describe": "Website for managing stock ",
         "url": null,
         "sourcecode": "https://github.com/siraom15/check-stock",
-        "numofimg": 0
+        "numofimg": 2
     },
     {
         "name": "TicTacToe",

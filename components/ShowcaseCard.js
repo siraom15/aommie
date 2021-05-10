@@ -9,8 +9,9 @@ const ShowcaseCard = ({ data }) => {
     if (data.numofimg > 0) {
         for (let index = 1; index <= data.numofimg; index++) {
             img.push(<Image
-                width={300}
+                // width={300}
                 src={`/img/${data.name}/${index}.jpeg`}
+                className="responsive-img"
             />)
         }
     }

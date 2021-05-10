@@ -23,3 +23,11 @@ a{
 .ant-layout-footer{
   background-color: white;
 }
+/* .responsive-img {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+} */
+.res-div{
+  width: 100%;
+}

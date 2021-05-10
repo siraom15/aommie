@@ -26,7 +26,7 @@ const Showcase = ({ showcaseData }) => {
                         <div className="site-card-wrapper">
                             <Row >
                                 {showcaseData.map(e => (
-                                    <Col span={8} xs={24} xl={6} md={12} lg={6} >
+                                    <Col span={8} xs={24} xl={6} md={12} lg={8} >
                                         <ShowcaseCard data={e} />
                                     </Col>
                                 ))
