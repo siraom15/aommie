@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Carousel, Image, Empty } from 'antd'
 const { Meta } = Card;
-import { LinkOutlined, CopyOutlined } from '@ant-design/icons';
+import { LinkOutlined, CopyOutlined,CloseOutlined } from '@ant-design/icons';
 import Link from 'next/link'
 
 const ShowcaseCard = ({ data }) => {
@@ -31,20 +31,25 @@ const ShowcaseCard = ({ data }) => {
                         <Empty />}
             </Carousel>}
             actions={[
-                <Link href={data.url ? data.url : "#"}>
-                    <a>
-                        <LinkOutlined key="link" />
-                    </a>
-                </Link>,
-                <Link href={data.sourcecode ? data.sourcecode : "#"}>
-                    <a>
-                        <CopyOutlined key="code" />
-                    </a>
-                </Link>
+                data.url ?
+                    (<Link href={data.url ? data.url : "#"}>
+                        <a>
+                            <LinkOutlined key="link" />
+                        </a>
+                    </Link>)
+                    : <CloseOutlined />
+                ,
+                data.sourcecode ?
+                    (<Link href={data.sourcecode ? data.sourcecode : "#"} >
+                        <a>
+                            <CopyOutlined key="code" />
+                        </a>
+                    </Link >)
+                    : <CloseOutlined />
             ]}
         >
             <Meta title={data.name} description={data.describe} />
-        </Card>
+        </Card >
     )
 }
 

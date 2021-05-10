@@ -2,10 +2,10 @@ import Head from 'next/head'
 import React from 'react'
 import { Layout, Row, Col } from 'antd';
 const { Content, Footer } = Layout;
-import { Space } from 'antd'
 import Navbar from '../components/Navbar'
 import ShowcaseCard from '../components/ShowcaseCard';
 import * as data from '../data/showcases.json';
+import { LinkOutlined, CopyOutlined, CloseOutlined } from '@ant-design/icons';
 
 const Showcase = ({ showcaseData }) => {
 
@@ -14,6 +14,7 @@ const Showcase = ({ showcaseData }) => {
             <Head>
                 <meta charSet="UTF-8" />
                 <title>Showcase 🌠 | aommie.codes</title>
+
             </Head>
 
             <Layout className="container p-0" theme="light" >
@@ -23,6 +24,11 @@ const Showcase = ({ showcaseData }) => {
 
                         <h1>Showcases 🌠</h1>
                         <p>I build some websites to improve myskill 💪💪</p>
+                        <p>
+                            <LinkOutlined key="link" /> : Link Url | 
+                            <CopyOutlined key="code" /> : Source Code |
+                            <CloseOutlined key="x" /> : No link
+                        </p>
                         <div className="site-card-wrapper">
                             <Row >
                                 {showcaseData.map(e => (
