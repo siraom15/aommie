@@ -39,14 +39,14 @@ const Navbar = ({ selected = '1' }) => {
                     </Menu.Item>
 
                     <Menu.Item key="4" >
-                        <Link href="https://www.github.com/siraom15">
+                        <Link href="https://siriwataom.medium.com/">
                             <a target="_blank">
                                 <MediumOutlined />
                             </a>
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="5" >
-                        <Link href="https://siriwataom.medium.com/" >
+                        <Link href="https://www.github.com/siraom15" >
                             <a target="_blank"> <GithubOutlined /></a>
                         </Link>
                     </Menu.Item>
