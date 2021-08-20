@@ -26,7 +26,7 @@ const Contact = () => {
                   <FacebookOutlined />
                 </a>
               </Link>
-              <Link href="https://aommie.codes/">
+              <Link href="https://www.linkedin.com/in/siriwat-j-174b0a1b7/">
                 <a target="_blank">
                   <LinkedinOutlined />
                 </a>

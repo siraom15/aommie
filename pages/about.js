@@ -23,19 +23,18 @@ const About = () => {
                             src="https://github.com/siraom15.png"
                         />
                         <p>My name is Siriwat Jaiyungyuen :D </p>
-                        <p>Now, I am studying at SIT26@KMUTT💻</p>
+                        <p>Now, I am studying at SIT26@KMUTT💻 YWC18 ✨</p>
                         <p>Working as Freelancer (Website, Programming) </p>
                         <br />
                         <Divider>Programming Skill</Divider>
                         <div>
-                            {/* <p>Java C Javascript PHP</p> */}
                             <img className="rounded-circle m-1" src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png" height="50" />
                             <img className="rounded-circle m-1" src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="50" />
                             <img className="rounded-circle m-1" src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png" height="50" />
                             <img className="rounded-circle m-1" src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="50" />
                             <img className="rounded-circle m-1" src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png" height="50" />
                             <img className="rounded-circle m-1" src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png" height="50" />
-                            <img className="rounded-circle m-1" src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png" height="50" />
+                            {/* <img className="rounded-circle m-1" src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png" height="50" /> */}
                         </div>
                         <Divider>Database</Divider>
                         <div>
