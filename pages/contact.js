@@ -17,7 +17,6 @@ const Contact = () => {
         <Navbar selected="3" />
         <Content className="p-5">
           <div className="content text-center">
-
             <div className="display-5">Contact 📝</div>
             <p>Keep in touch with these 🙂</p>
             <div className="display-1 d-flex flex-column">

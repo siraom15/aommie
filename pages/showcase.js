@@ -46,9 +46,6 @@ const Showcase = ({ showcaseData }) => {
     )
 }
 export async function getStaticProps() {
-    // console.log(data.default);
-    // const res = await fetch("http://localhost:3000/api/showcases");
-    // const data = await res.json();
     return {
         props: {
             showcaseData: data.default || {}

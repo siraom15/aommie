@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import React from 'react'
-import { Layout } from 'antd';
 import { Result, Button } from 'antd';
 import Link from 'next/link';
 

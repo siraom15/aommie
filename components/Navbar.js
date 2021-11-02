@@ -10,7 +10,6 @@ const Navbar = ({ selected = '1' }) => {
     return (
         <>
             <Header theme="light" className="d-flex justify-content-center">
-                {/* <div className="logo" /> */}
                 <Menu mode="horizontal" defaultSelectedKeys={[selected]} theme="light">
                     <Menu.Item key="0">
                         <Link href="/">
@@ -23,17 +22,17 @@ const Navbar = ({ selected = '1' }) => {
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="6">
-                        <Link href="/about">
+                        <Link href="about">
                             <a> About 📚</a>
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="2">
-                        <Link href="/showcase">
+                        <Link href="showcase">
                             <a>  Showcases 🌠</a>
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="3">
-                        <Link href="/contact">
+                        <Link href="contact">
                             <a> Contact 📝</a>
                         </Link>
                     </Menu.Item>
