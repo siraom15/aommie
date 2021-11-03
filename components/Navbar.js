@@ -13,7 +13,7 @@ const Navbar = ({ selected = '1' }) => {
                 <Menu mode="horizontal" defaultSelectedKeys={[selected]} theme="light">
                     <Menu.Item key="0">
                         <Link href="/">
-                            <a> 👾 aommie.codes</a>
+                            <a> 👾 Áommie</a>
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="1">
